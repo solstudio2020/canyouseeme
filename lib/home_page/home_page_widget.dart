@@ -100,8 +100,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
         child: Stack(
           alignment: Alignment(0, 0),
           children: [
-            Column(
-              mainAxisSize: MainAxisSize.max,
+            ListView(
+              padding: EdgeInsets.zero,
+              scrollDirection: Axis.vertical,
               children: [
                 Material(
                   color: Colors.transparent,
